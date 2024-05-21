@@ -9,8 +9,8 @@ function isEnoughCapacity(products, containerSize) {
     } else {
         return false;
     }
-  }
-
+}
+  
 // function isEnoughCapacity(products, containerSize) {
 //   let totalProducts = 0;
 //   const valuesProducts = Object.values(products);
@@ -19,7 +19,6 @@ function isEnoughCapacity(products, containerSize) {
 //   }
 //   return totalProducts <= containerSize;
 // }
-
 
 console.log(
   isEnoughCapacity({ apples: 2, grapes: 3, carrots: 1 }, 8)
